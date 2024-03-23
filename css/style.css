@@ -47,12 +47,12 @@ html {
 
 body {
   min-width: 1440px;
-  margin: 0;
+  margin: 0 auto;
 
-  /* min-height: 100%; */
-  /* нужно для стики-футера*/
-  /* display: flex; */
-  /* нужно для стики-футера*/
+  min-height: 100%;
+  /*нужно для стики-футера*/
+   display: flex;
+  /* нужно для стики-футера */
 
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -64,6 +64,36 @@ body {
 
 img {
    object-fit: contain;
+}
+
+.container {
+  width: 1440px;
+padding: 0 122px;
+
+min-height: 100%;
+/* нужно для стики-футера*/
+display: flex;
+/* нужно для стики-футера*/
+flex-direction: column;
+/* нужно для стики-футера*/
+
+margin: 0 auto;
+background-color: #ffffff;
+
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /*===================== *** fonts *** ===========================*/
@@ -119,4 +149,34 @@ img {
   font-size: 16px;
   line-height: 19px;
   font-weight: 700;
+}
+
+.btn-mini {
+font-size: 13px;
+line-height: 28px;
+}
+
+.title-name {
+font-weight: 600;
+}
+
+.name-email-text {
+font-size: 14px;
+}
+.contacts-link {
+  font-size: 25px;
+  line-height: 26px;
+}
+
+.footer-title {
+  font-size: 20px;
+  line-height: 30px;
+  color: #2F281E;
+}
+
+.footer-link {
+	font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 35px;
+  color: #544837;
 }
