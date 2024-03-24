@@ -96,6 +96,9 @@ background-color: #ffffff;
   overflow: hidden;
 }
 
+.text-break {
+  display: block;
+}
 /*===================== *** fonts *** ===========================*/
 
 .main-title {
@@ -179,4 +182,112 @@ font-size: 14px;
   font-size: 16px;
   line-height: 35px;
   color: #544837;
+}
+/*===================== *** buttons *** ===========================*/
+.btn {
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+
+.btn-small {
+  padding: 11px 25px 13px;
+}
+
+.btn-big {
+  padding: 15px 36px 16px;
+}
+
+.btn-color-1 {
+  background-color: #FF9900;
+}
+
+.btn-color-2 {
+  background-color: #FFFFFF;
+}
+
+.btn-color-3 {
+  background-color: #FF7549;
+}
+
+.btn-border {
+  border: 3px solid #BCD0E5;
+}
+
+/*===================== *** header *** ===========================*/
+
+.main-header {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.main-nav {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.nav-list {
+  display: flex;
+flex-wrap: wrap;
+}
+
+.nav-item {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 24px 17px;
+}
+
+.nav-btn-wrapp {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*===================== *** hero *** ===========================*/
+
+.hero-wrapp {
+  margin: 83px 645px 81px 0;
+}
+
+.main-title {
+  padding-bottom: 30px;
+}
+
+.subtitle {
+  padding-bottom: 45px;
+}
+
+.hero-btn-wrapp {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*===================== *** tools *** ===========================*/
+
+.tools .title-section {
+  text-align: center;
+margin-bottom: 70px;
+}
+
+.tools-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap:20px 50px;
+}
+
+.tools-item {
+  max-width: 263px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.title-tools {
+  margin-bottom: 16px;
 }
