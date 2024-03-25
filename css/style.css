@@ -46,12 +46,12 @@ html {
 }
 
 body {
-  min-width: 1440px;
+  min-width: 1196px;
   margin: 0 auto;
 
   min-height: 100%;
   /*нужно для стики-футера*/
-   display: flex;
+   /* display: flex; */
   /* нужно для стики-футера */
 
   font-family: "Open Sans", sans-serif;
@@ -67,14 +67,16 @@ img {
 }
 
 .container {
-  width: 1440px;
-padding: 0 122px;
+  width: 1196px;
+/* padding: 0 122px; */
+
+
 
 min-height: 100%;
 /* нужно для стики-футера*/
-display: flex;
+/* display: flex; */
 /* нужно для стики-футера*/
-flex-direction: column;
+/* flex-direction: column; */
 /* нужно для стики-футера*/
 
 margin: 0 auto;
@@ -100,6 +102,10 @@ background-color: #ffffff;
   display: block;
 }
 /*===================== *** fonts *** ===========================*/
+.main-text {
+    /*  основной текст ,как body   */
+    margin: 0;
+}
 
 .main-title {
   /*  h1   */
@@ -155,8 +161,14 @@ background-color: #ffffff;
 }
 
 .btn-mini {
+  box-sizing: border-box;
 font-size: 13px;
 line-height: 28px;
+
+padding: 0 14px;
+border: 1px solid transparent;
+border-radius: 90px;
+background-color: #F5F5F5;
 }
 
 .title-name {
@@ -199,11 +211,11 @@ font-size: 14px;
 }
 
 .btn-color-1 {
-  background-color: #FF9900;
+    background-color: #FFFFFF;
 }
 
 .btn-color-2 {
-  background-color: #FFFFFF;
+   background-color: #FF9900;
 }
 
 .btn-color-3 {
@@ -214,11 +226,24 @@ font-size: 14px;
   border: 3px solid #BCD0E5;
 }
 
+/*===================== *** buttons-mini *** ===========================*/
+.btn-mini-attribute {
+  /* белая*/
+background-color: #ffffff;
+border-color: #D7D7D7;
+}
+
+.btn-mini-selected {
+  /* оражевая*/
+background-color: #FF9900;
+}
+
 /*===================== *** header *** ===========================*/
 
 .main-header {
   display: flex;
   /* justify-content: space-between; */
+  margin-bottom: 30px;
 }
 
 .main-nav {
@@ -246,9 +271,13 @@ flex-wrap: wrap;
   flex-wrap: wrap;
 }
 /*===================== *** hero *** ===========================*/
+.hero {
+  padding: 83px 600px 81px 0;
+  margin-bottom: 111px;
+}
 
 .hero-wrapp {
-  margin: 83px 645px 81px 0;
+min-width: 645px;
 }
 
 .main-title {
@@ -265,9 +294,12 @@ flex-wrap: wrap;
 }
 
 /*===================== *** tools *** ===========================*/
-
-.tools .title-section {
+.tools {
+  margin-bottom: 30px;
+  padding-bottom: 90px;
   text-align: center;
+}
+.tools .title-section {
 margin-bottom: 70px;
 }
 
@@ -275,6 +307,7 @@ margin-bottom: 70px;
   margin: 0;
   padding: 0;
   list-style: none;
+  margin-bottom: 34px;
 
   display: flex;
   flex-wrap: wrap;
@@ -282,7 +315,7 @@ margin-bottom: 70px;
 }
 
 .tools-item {
-  max-width: 263px;
+  max-width: 261px;
 
   display: flex;
   flex-direction: column;
@@ -290,4 +323,61 @@ margin-bottom: 70px;
 
 .title-tools {
   margin-bottom: 16px;
+}
+
+/*===================== *** strategies *** ===========================*/
+.strategies {
+margin-bottom: 90px;
+padding-bottom: 6px;
+}
+
+.strategies .title-section {
+  margin-bottom: 14px;
+}
+
+.strategies .main-text {
+  margin-bottom: 24px;
+}
+
+.btn-mini-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  margin-bottom: 31px;
+
+  display: flex;
+  gap: 4px;
+}
+
+.strategies-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px 34px;
+}
+
+.strategies-item {
+  box-sizing: border-box;
+  width: 376px;
+  padding-bottom: 26px;
+}
+
+.strategies-item-big {
+  box-sizing: border-box;
+  width: 786px;
+}
+
+.strategies-item-img {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.strategies-item .title-card {
+  margin-left: 33px;
+  margin-right: 36px;
+ margin-bottom: 29px;
 }

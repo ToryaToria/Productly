@@ -1,3 +1,23 @@
-* {
+/* * {
   outline: 1px solid black;
+} */
+
+
+header,
+footer,
+section {
+  outline: 1px solid black;
+}
+
+nav {
+  outline: 1px solid blue;
+}
+
+li {
+  outline: 1px solid green;
+}
+
+.hero div {
+  outline: 1px solid greenyellow;
+
 }
