@@ -51,7 +51,7 @@ body {
 
   min-height: 100%;
   /*нужно для стики-футера*/
-   /* display: flex; */
+  /* display: flex; */
   /* нужно для стики-футера */
 
   font-family: "Open Sans", sans-serif;
@@ -63,24 +63,24 @@ body {
 }
 
 img {
-   object-fit: contain;
+  object-fit: contain;
 }
 
 .container {
   width: 1196px;
-/* padding: 0 122px; */
+  /* padding: 0 122px; */
 
 
 
-min-height: 100%;
-/* нужно для стики-футера*/
-/* display: flex; */
-/* нужно для стики-футера*/
-/* flex-direction: column; */
-/* нужно для стики-футера*/
+  min-height: 100%;
+  /* нужно для стики-футера*/
+  /* display: flex; */
+  /* нужно для стики-футера*/
+  /* flex-direction: column; */
+  /* нужно для стики-футера*/
 
-margin: 0 auto;
-background-color: #ffffff;
+  margin: 0 auto;
+  background-color: #ffffff;
 
 }
 
@@ -101,16 +101,17 @@ background-color: #ffffff;
 .text-break {
   display: block;
 }
+
 /*===================== *** fonts *** ===========================*/
 .main-text {
-    /*  основной текст ,как body   */
-    margin: 0;
+  /*  основной текст ,как body   */
+  margin: 0;
 }
 
 .main-title {
   /*  h1   */
-	margin: 0;
-	font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
   font-size: 44px;
   line-height: 54px;
   color: #2F281E;
@@ -118,14 +119,14 @@ background-color: #ffffff;
 
 .subtitle {
   margin: 0;
-	font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   line-height: 28px;
 }
 
 .title-section {
   /*  h2   */
-	margin: 0;
+  margin: 0;
   font-size: 34px;
   line-height: 40px;
   color: #2F281E;
@@ -133,7 +134,7 @@ background-color: #ffffff;
 
 .title-card {
   /*  h3   */
-	margin: 0;
+  margin: 0;
   font-size: 24px;
   line-height: 34px;
   color: #2F281E;
@@ -141,7 +142,7 @@ background-color: #ffffff;
 
 .title-tools {
   /*  h4   */
-	margin: 0;
+  margin: 0;
   font-size: 22px;
   line-height: 26px;
   font-weight: 600;
@@ -162,25 +163,30 @@ background-color: #ffffff;
 
 .btn-mini {
   box-sizing: border-box;
-font-size: 13px;
-line-height: 28px;
+  font-size: 13px;
+  line-height: 28px;
 
-padding: 0 14px;
-border: 1px solid transparent;
-border-radius: 90px;
-background-color: #F5F5F5;
+  padding: 0 14px;
+  border: 1px solid transparent;
+  border-radius: 90px;
+  background-color: #F5F5F5;
 }
 
 .title-name {
-font-weight: 600;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .name-email-text {
-font-size: 14px;
+  font-size: 14px;
 }
+
 .contacts-link {
   font-size: 25px;
   line-height: 26px;
+  color: #544837;
+  text-decoration: none;
 }
 
 .footer-title {
@@ -190,11 +196,12 @@ font-size: 14px;
 }
 
 .footer-link {
-	font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 35px;
   color: #544837;
 }
+
 /*===================== *** buttons *** ===========================*/
 .btn {
   box-sizing: border-box;
@@ -211,11 +218,11 @@ font-size: 14px;
 }
 
 .btn-color-1 {
-    background-color: #FFFFFF;
+  background-color: #FFFFFF;
 }
 
 .btn-color-2 {
-   background-color: #FF9900;
+  background-color: #FF9900;
 }
 
 .btn-color-3 {
@@ -229,13 +236,13 @@ font-size: 14px;
 /*===================== *** buttons-mini *** ===========================*/
 .btn-mini-attribute {
   /* белая*/
-background-color: #ffffff;
-border-color: #D7D7D7;
+  background-color: #ffffff;
+  border-color: #D7D7D7;
 }
 
 .btn-mini-selected {
   /* оражевая*/
-background-color: #FF9900;
+  background-color: #FF9900;
 }
 
 /*===================== *** header *** ===========================*/
@@ -253,7 +260,7 @@ background-color: #FF9900;
 
 .nav-list {
   display: flex;
-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .nav-item {
@@ -270,6 +277,7 @@ flex-wrap: wrap;
   display: flex;
   flex-wrap: wrap;
 }
+
 /*===================== *** hero *** ===========================*/
 .hero {
   padding: 83px 600px 81px 0;
@@ -277,7 +285,7 @@ flex-wrap: wrap;
 }
 
 .hero-wrapp {
-min-width: 645px;
+  min-width: 645px;
 }
 
 .main-title {
@@ -299,8 +307,9 @@ min-width: 645px;
   padding-bottom: 90px;
   text-align: center;
 }
+
 .tools .title-section {
-margin-bottom: 70px;
+  margin-bottom: 70px;
 }
 
 .tools-list {
@@ -311,7 +320,7 @@ margin-bottom: 70px;
 
   display: flex;
   flex-wrap: wrap;
-  gap:20px 50px;
+  gap: 20px 50px;
 }
 
 .tools-item {
@@ -327,8 +336,8 @@ margin-bottom: 70px;
 
 /*===================== *** strategies *** ===========================*/
 .strategies {
-margin-bottom: 90px;
-padding-bottom: 6px;
+  margin-bottom: 90px;
+  padding-bottom: 6px;
 }
 
 .strategies .title-section {
@@ -379,5 +388,78 @@ padding-bottom: 6px;
 .strategies-item .title-card {
   margin-left: 33px;
   margin-right: 36px;
- margin-bottom: 29px;
+  margin-bottom: 29px;
+}
+
+/*===================== *** about *** ===========================*/
+.about {
+  margin-bottom: 101px;
+}
+
+.about .title-section {
+  margin-bottom: 14px;
+}
+
+/* .title-name > .main-text {
+  margin-bottom: 45px;
+} */
+
+.about-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 65px;
+}
+
+.about-item {
+box-sizing: border-box;
+  position: relative;
+padding: 36px 88px 34px 35px;
+width: 345px;
+border: 10px;
+outline: 1px solid gray;
+}
+
+.about-avatar {
+  display: block;
+  border-radius: 50%;
+
+  position: absolute;
+  top: 20px;
+  right: -32px;
+}
+
+/*===================== *** contacts *** ===========================*/
+
+.contacts {
+  padding-top: 62px;
+  padding-bottom: 82px;
+  display: flex;
+
+  background-color: #FFEEE1;
+}
+
+.contacts .title-section {
+  margin-bottom: 17px;
+}
+
+.contacts .main-text {
+  margin-bottom: 59px;
+}
+
+.contacts .contacts-link {
+display: block;
+margin-bottom: 19px;
+}
+
+.contacts-textarea {
+  width: 577px;
+}
+
+.contacts-input {
+  display: inline-block;
+width: 280px;
 }
