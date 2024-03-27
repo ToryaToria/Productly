@@ -7,15 +7,26 @@ header,
 footer,
 section {
   outline: 1px solid black;
+
+  background-color: greenyellow;
+}
+
+/* section {
+  outline: 1px solid black;
+} */
+
+.container {
+  outline: 1px solid violet;
+
 }
 
 nav {
   outline: 1px solid blue;
 }
 
-li {
+/* li {
   outline: 1px solid green;
-}
+} */
 
 .hero div {
   outline: 1px solid greenyellow;

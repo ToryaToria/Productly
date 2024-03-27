@@ -59,7 +59,7 @@ body {
   line-height: 26px;
   color: #544837;
 
-  background-color: #F2F2F2;
+  background-color: #ffffff;
 }
 
 img {
@@ -67,8 +67,8 @@ img {
 }
 
 .container {
-  width: 1196px;
-  /* padding: 0 122px; */
+  width: 1440px;
+  padding: 0 122px;
 
 
 
@@ -80,8 +80,6 @@ img {
   /* нужно для стики-футера*/
 
   margin: 0 auto;
-  background-color: #ffffff;
-
 }
 
 .visually-hidden {
@@ -153,6 +151,8 @@ img {
   font-size: 15px;
   line-height: 28px;
   color: #2F281E;
+
+  text-decoration: none;
 }
 
 .btn-text {
@@ -173,6 +173,7 @@ img {
 }
 
 .title-name {
+  /*  h5   */
   margin: 0;
   font-size: 16px;
   font-weight: 600;
@@ -190,6 +191,8 @@ img {
 }
 
 .footer-title {
+  /*  h6   */
+  margin: 0;
   font-size: 20px;
   line-height: 30px;
   color: #2F281E;
@@ -207,6 +210,7 @@ img {
   box-sizing: border-box;
   border-radius: 4px;
   border: 1px solid transparent;
+  color: #ffffff;
 }
 
 .btn-small {
@@ -219,6 +223,7 @@ img {
 
 .btn-color-1 {
   background-color: #FFFFFF;
+  color: #173A56;
 }
 
 .btn-color-2 {
@@ -246,36 +251,55 @@ img {
 }
 
 /*===================== *** header *** ===========================*/
+.header-logo {
+  display: block;
+  margin-right: 216px;
+}
+
+.header-logo-img {
+  display: block;
+}
 
 .main-header {
   display: flex;
-  /* justify-content: space-between; */
+align-items: center;
   margin-bottom: 30px;
 }
 
 .main-nav {
+  width: 100%;
+
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 
 .nav-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.nav-item {
   margin: 0;
   padding: 0;
   list-style: none;
+  margin-right: auto;
+
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 17px;
+  align-items: center;
 }
 
 .nav-link {
-  padding: 24px 17px;
+  display: block;
+  padding: 24px 10px 26px;
+
 }
 
 .nav-btn-wrapp {
+  min-width: 250px;
   display: flex;
   flex-wrap: wrap;
+  gap: 14px;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 /*===================== *** hero *** ===========================*/
@@ -299,6 +323,16 @@ img {
 .hero-btn-wrapp {
   display: flex;
   flex-wrap: wrap;
+  gap: 44px;
+  align-items: center;
+}
+
+
+
+.hero-link {
+  font-family: "Poppins", sans-serif;
+  color: #FF9900;
+  font-weight: 600;
 }
 
 /*===================== *** tools *** ===========================*/
@@ -328,6 +362,8 @@ img {
 
   display: flex;
   flex-direction: column;
+
+  text-align: left;
 }
 
 .title-tools {
@@ -373,6 +409,10 @@ img {
   box-sizing: border-box;
   width: 376px;
   padding-bottom: 26px;
+
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.05) ;
 }
 
 .strategies-item-big {
@@ -415,12 +455,14 @@ img {
 }
 
 .about-item {
-box-sizing: border-box;
+  box-sizing: border-box;
   position: relative;
-padding: 36px 88px 34px 35px;
-width: 345px;
-border: 10px;
-outline: 1px solid gray;
+  padding: 36px 88px 34px 35px;
+  width: 345px;
+  border-radius: 10px;
+
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.05) ;
+
 }
 
 .about-avatar {
@@ -451,8 +493,8 @@ outline: 1px solid gray;
 }
 
 .contacts .contacts-link {
-display: block;
-margin-bottom: 19px;
+  display: block;
+  margin-bottom: 19px;
 }
 
 .contacts-textarea {
@@ -461,5 +503,48 @@ margin-bottom: 19px;
 
 .contacts-input {
   display: inline-block;
-width: 280px;
+  width: 280px;
+}
+
+/*===================== *** footer *** ===========================*/
+.footer-logo {
+  display: block;
+  margin-right: 151px;
+}
+
+.main-footer .footer-title {
+  margin-bottom: 15px;
+}
+
+.main-footer {
+  padding: 56px 130px 52px 0;
+
+  display: flex;
+
+}
+
+.footer-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 140px;
+  flex-wrap: wrap;
+
+  outline: 1px solid #FF7549;
+
+}
+
+.footer-menu-link {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  min-width: 127px;
+  max-width: 180px;
+
+  display: flex;
+  flex-direction: column;
 }

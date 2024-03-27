@@ -11,10 +11,11 @@
 </head>
 
 <body>
-  <div class="container">
-    <header class="main-header">
-      <a href="#">
-        <img src="./img/Logo.svg" alt="Productly" width="191" height="32">
+
+  <header class="main-header">
+    <div class="container">
+      <a class="header-logo" href="#">
+        <img class="header-logo-img" src="./img/Logo.svg" alt="Productly" width="191" height="32">
       </a>
 
       <nav class="main-nav">
@@ -30,9 +31,11 @@
           <button class="btn btn-text btn-small btn-color-2" type="button">Sign Up</button>
         </div>
       </nav>
-    </header>
+    </div>
+  </header>
 
-    <main class="main">
+  <main class="main">
+    <div class="container">
       <section class="hero">
         <div class="hero-wrapp">
           <h1 class="main-title"> <span class="text-break">The Design Thinking </span> superpowers</h1>
@@ -42,7 +45,7 @@
 
           <div class="hero-btn-wrapp">
             <button class="btn btn-text btn-color-2 btn-big" type="button">Get started</button>
-            <a href="">Watch the Video</a>
+            <a class="hero-link" href="">Watch the Video</a>
           </div>
         </div>
       </section>
@@ -216,9 +219,9 @@
 
         <ul class="about-list">
           <li class="about-item">
-              <h6 class="title-name">Kathy Rosenberg</h6>
-              <p class="main-text">Product Mannager</p>
-              <a class="name-email-text" href="">kathyr@gmail.com</a>
+            <h6 class="title-name">Kathy Rosenberg</h6>
+            <p class="main-text">Product Mannager</p>
+            <a class="name-email-text" href="">kathyr@gmail.com</a>
             <img class="about-avatar" src="./img/ava_1.jpg" alt="" width="98" height="98">
           </li>
 
@@ -235,13 +238,17 @@
             <a class="name-email-text" href="">melania@gmail.com</a>
             <img class="about-avatar" src="./img/ava_3.jpg" alt="" width="98" height="98">
           </li>
-          </ul>
-      </section>
+        </ul>
+    </div>
+    </section>
 
-      <section class="contacts">
+      <div class="container">
+
+    <section class="contacts">
         <div class="contacts-wrapp">
           <h2 class="title-section">Contact Us</h2>
-          <p class="main-text">Your About Us page is vital. It’s often the first stop in any user’s journey through a website or blog. It
+          <p class="main-text">Your About Us page is vital. It’s often the first stop in any user’s journey through a
+            website or blog. It
             also
             shouldn’t be their last, because first impressions count online just as much as they do in the real world.
             If
@@ -254,90 +261,95 @@
 
         <form class="contacts-form" action="" method="post">
 
-            <label class="visually-hidden" for="name">name</label>
-            <input class="contacts-input" type="text" name="name" id="name" placeholder="Your name">
+          <label class="visually-hidden" for="name">name</label>
+          <input class="contacts-input" type="text" name="name" id="name" placeholder="Your name">
 
-            <label class="visually-hidden" for="email">email</label>
-            <input class="contacts-input" type="text" name="email" id="email" placeholder="Your email">
+          <label class="visually-hidden" for="email">email</label>
+          <input class="contacts-input" type="text" name="email" id="email" placeholder="Your email">
 
-            <textarea class="contacts-textarea" name="questions" id="" cols="30" rows="10" placeholder="What do you want to ask?"></textarea>
+          <textarea class="contacts-textarea" name="questions" id="" cols="30" rows="10"
+            placeholder="What do you want to ask?"></textarea>
           <button class="btn-text" type="submit">Send</button>
         </form>
-      </section>
-    </main>
+    </section>
+      </div>
 
-    <footer class="main-footer">
+  </main>
+
+    <div class="container">
+
+  <footer class="main-footer">
       <a href="">
-        <img src="./img/Logo.svg" alt="Productly" width="190" height="32">
+        <img class="footer-logo" src="./img/Logo.svg" alt="Productly" width="190" height="32">
       </a>
 
-      <ul>
-        <li>
+      <ul class="footer-list">
+        <li class="footer-item">
           <h5 class="footer-title">Quick Links</h5>
-          <ul>
-            <li>
+          <ul class="footer-menu-link">
+            <li class="footer-menu-item">
               <a class="footer-link " href="">About Us</a>
             </li>
 
-            <li>
+            <li class="footer-menu-item">
               <a class="footer-link " href="">Blog</a>
             </li>
 
-            <li>
+            <li class="footer-menu-item">
               <a class="footer-link " href="">Contact</a>
             </li>
 
-            <li>
+            <li class="footer-menu-item">
               <a class="footer-link " href="">FAQ</a>
             </li>
           </ul>
         </li>
 
-        <li>
+        <li class="footer-item">
           <h5 class="footer-title">Legal Stuff</h5>
-          <ul>
-            <li>
+          <ul class="footer-menu-link">
+            <li class="footer-menu-item">
               <a class="footer-link " href="">Disclaimer</a>
             </li>
 
-            <li>
+            <li class="footer-menu-item">
               <a class="footer-link " href="">Financing</a>
             </li>
 
-            <li>
+            <li class="footer-menu-item">
               <a class="footer-link " href=""> Privacy Policy</a>
             </li>
 
-            <li>
+            <li class="footer-menu-item">
               <a class="footer-link " href="">Terms of Service</a>
             </li>
           </ul>
         </li>
 
-        <li>
+        <li class="footer-item">
           <h5 class="footer-title">Quick Links</h5>
-          <ul>
-            <li>
+          <ul class="footer-menu-link">
+            <li class="footer-menu-item">
               <a class="footer-link " href="">About Us </a>
             </li>
 
-            <li>
+            <li class="footer-menu-item">
               <a class="footer-link " href="">Blog</a>
             </li>
 
-            <li>
+            <li class="footer-menu-item">
               <a class="footer-link " href="">Contact</a>
             </li>
 
-            <li>
+            <li class="footer-menu-item">
               <a class="footer-link " href="">FAQ</a>
             </li>
           </ul>
         </li>
-
       </ul>
-    </footer>
-  </div>
+  </footer>
+      </div>
+
 </body>
 
 </html>
